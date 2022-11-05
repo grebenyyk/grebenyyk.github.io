@@ -5,21 +5,20 @@
     <link>https://grebenyyk.github.io/posts/</link>
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://grebenyyk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://grebenyyk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Dimitry</title>
+      <title>About</title>
       <link>https://grebenyyk.github.io/posts/about/</link>
-      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/about/</guid>
-      <description>Hi, I&amp;rsquo;m Dimitry. Hi, I&amp;rsquo;m Dimitry.
-Hi, I&amp;rsquo;m Dimitry.
-Hi, I&amp;rsquo;m Dimitry.</description>
-      <content>&lt;p&gt;Hi, I&amp;rsquo;m Dimitry.
-Hi, I&amp;rsquo;m Dimitry.&lt;/p&gt;
-&lt;p&gt;Hi, I&amp;rsquo;m Dimitry.&lt;/p&gt;
-&lt;p&gt;Hi, I&amp;rsquo;m Dimitry.&lt;/p&gt;
+      <description>Hi, I&amp;rsquo;m Dimitry.
+I do inorganic chemistry and crystallography at the Lomonosov Moscow State University.
+I love photography, traveling and languages. I also maintain a list of musical albums I will never write.</description>
+      <content>&lt;p&gt;Hi, I&amp;rsquo;m Dimitry.&lt;/p&gt;
+&lt;p&gt;I do inorganic chemistry and crystallography at the Lomonosov
+Moscow State University.&lt;/p&gt;
+&lt;p&gt;I love &lt;a href=&#34;https://instagram.com/grebenyyk&#34;&gt;photography&lt;/a&gt;, traveling and languages. I also maintain a list of musical albums I will never write.&lt;/p&gt;
 </content>
     </item>
     
