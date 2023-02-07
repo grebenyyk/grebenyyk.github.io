@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://grebenyyk.github.io/photoshop-excercises/</loc>
-    <lastmod>2023-01-03T21:41:53+03:00</lastmod>
-  </url><url>
     <loc>https://grebenyyk.github.io/posts/</loc>
+    <lastmod>2023-02-07T21:34:41+03:00</lastmod>
+  </url><url>
+    <loc>https://grebenyyk.github.io/%E6%9B%B9%E5%95%A6%E4%BC%B6/</loc>
+    <lastmod>2023-02-07T21:34:41+03:00</lastmod>
+  </url><url>
+    <loc>https://grebenyyk.github.io/gradients-and-glitches/</loc>
     <lastmod>2023-01-03T21:41:53+03:00</lastmod>
   </url><url>
     <loc>https://grebenyyk.github.io/manila-music/</loc>
