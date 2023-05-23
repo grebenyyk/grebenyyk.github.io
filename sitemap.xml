@@ -2,16 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://grebenyyk.github.io/posts/</loc>
+    <loc>https://grebenyyk.github.io/mlpdf/</loc>
     <lastmod>2023-02-11T17:13:54+03:00</lastmod>
-  </url><url>
-    <loc>https://grebenyyk.github.io/%D0%BE%D0%B1%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%BC-%D0%B8-%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D0%B5%D0%BC/</loc>
-    <lastmod>2023-02-11T17:13:54+03:00</lastmod>
-  </url><url>
-    <loc>https://grebenyyk.github.io/%E6%9B%B9%E5%95%A6%E4%BC%B6/</loc>
-    <lastmod>2023-02-07T21:34:41+03:00</lastmod>
   </url><url>
     <loc>https://grebenyyk.github.io/gradients-and-glitches/</loc>
+    <lastmod>2023-01-03T21:41:53+03:00</lastmod>
+  </url><url>
+    <loc>https://grebenyyk.github.io/posts/</loc>
     <lastmod>2023-01-03T21:41:53+03:00</lastmod>
   </url><url>
     <loc>https://grebenyyk.github.io/manila-music/</loc>
