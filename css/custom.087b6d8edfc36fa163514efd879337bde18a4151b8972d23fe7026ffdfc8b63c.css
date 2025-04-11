@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .toc {
+      display: none;
+    }
+  }
+
+  .toc {
+    max-height: 80vh;         /* use 80% of viewport height */
+    overflow-y: auto;         /* enable vertical scroll */
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
