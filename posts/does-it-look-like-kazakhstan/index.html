@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Does it Look Like Kazakhstan?</title>
+  <style>
+    #map {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      height: 600px;
+      margin: 40px auto;
+    }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.9/datamaps.world.min.js"></script>
+</head>
+
+<body>
+  <h1 style="font-family: sans-serif; font-weight: 600; font-size: 2em; text-align: center; margin-top: 1em;">
+    Does it look like Kazakhstan?
+  </h1>
+  <div id="map"></div>
+
+  <div id="legend" style="width: 300px; margin: 20px auto; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">    <div style="background: linear-gradient(to right, #effbfc, #429dd2); height: 20px; border-radius: 10px;"></div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.8em; margin-top: 4px;">
+      <span>Not at all</span>
+      <span>Kind of</span>
+      <span>Very Kazakh</span>
+    </div>
+  </div>
+
+  <script>
+    window.onload = function () {
+      const countryRatings = {
+    "AFG": null,
+    "ALB": null,
+    "DZA": null,
+    "AND": null,
+    "AGO": null,
+    "ATG": null,
+    "ARG": 0.7,
+    "ARM": null,
+    "AUS": null,
+    "AUT": 0.2,
+    "AZE": null,
+    "BHS": null,
+    "BHR": null,
+    "BGD": null,
+    "BRB": null,
+    "BLR": 0.7,
+    "BEL": 0.7,
+    "BLZ": null,
+    "BEN": null,
+    "BTN": null,
+    "BOL": null,
+    "BIH": null,
+    "BWA": null,
+    "BRA": 0.1,
+    "BRN": null,
+    "BGR": 0.2,
+    "BFA": null,
+    "BDI": null,
+    "KHM": 0.2,
+    "CMR": null,
+    "CAN": null,
+    "CPV": null,
+    "CAF": null,
+    "TCD": null,
+    "CHL": 0.2,
+    "CHN": 0.7,
+    "COL": null,
+    "COM": null,
+    "COG": null,
+    "CRI": null,
+    "CIV": null,
+    "HRV": null,
+    "CUB": null,
+    "CYP": null,
+    "CZE": 0.2,
+    "COD": null,
+    "DNK": 0.0,
+    "DJI": null,
+    "DMA": null,
+    "DOM": null,
+    "ECU": null,
+    "EGY": null,
+    "SLV": null,
+    "GNQ": null,
+    "ERI": null,
+    "EST": null,
+    "SWZ": null,
+    "ETH": null,
+    "FJI": null,
+    "FIN": 0.2,
+    "FRA": 0.1,
+    "GAB": null,
+    "GMB": null,
+    "GEO": null,
+    "DEU": 0.1,
+    "GHA": null,
+    "GRC": null,
+    "GRD": null,
+    "GTM": null,
+    "GIN": null,
+    "GNB": null,
+    "GUY": null,
+    "HTI": null,
+    "HND": null,
+    "HUN": 0.1,
+    "ISL": 0.1,
+    "IND": 0.1,
+    "IDN": 0.9,
+    "IRN": null,
+    "IRQ": null,
+    "IRL": null,
+    "ISR": null,
+    "ITA": 0.4,
+    "JAM": null,
+    "JPN": null,
+    "JOR": null,
+    "KAZ": "kazakhstan",
+    "KEN": null,
+    "KIR": null,
+    "PRK": null,
+    "KOR": 0.1,
+    "KWT": null,
+    "KGZ": 0.9,
+    "LAO": null,
+    "LVA": 0.6,
+    "LBN": null,
+    "LSO": null,
+    "LBR": null,
+    "LBY": null,
+    "LIE": null,
+    "LTU": null,
+    "LUX": null,
+    "MDG": null,
+    "MWI": null,
+    "MYS": null,
+    "MDV": null,
+    "MLI": null,
+    "MLT": null,
+    "MHL": null,
+    "MRT": null,
+    "MUS": null,
+    "MEX": null,
+    "FSM": null,
+    "MDA": null,
+    "MCO": null,
+    "MNG": null,
+    "MNE": null,
+    "MAR": null,
+    "MOZ": null,
+    "MMR": null,
+    "NAM": 0.1,
+    "NRU": null,
+    "NPL": null,
+    "NLD": 0.1,
+    "NZL": null,
+    "NIC": null,
+    "NER": null,
+    "NGA": null,
+    "MKD": null,
+    "NOR": 0.1,
+    "OMN": null,
+    "PAK": null,
+    "PLW": null,
+    "PAN": null,
+    "PNG": null,
+    "PRY": null,
+    "PER": null,
+    "PHL": 0.8,
+    "POL": 0.5,
+    "PRT": 0.1,
+    "QAT": 0.1,
+    "ROU": null,
+    "RUS": 0.8,
+    "RWA": null,
+    "KNA": null,
+    "LCA": null,
+    "VCT": null,
+    "WSM": null,
+    "SMR": null,
+    "STP": null,
+    "SAU": null,
+    "SEN": null,
+    "SRB": 0.8,
+    "SYC": null,
+    "SLE": null,
+    "SGP": 0.8,
+    "SVK": null,
+    "SVN": 0.1,
+    "SLB": null,
+    "SOM": null,
+    "ZAF": 0.2,
+    "SSD": null,
+    "ESP": 0.4,
+    "LKA": null,
+    "SDN": null,
+    "SUR": null,
+    "SWE": 0.1,
+    "CHE": null,
+    "SYR": null,
+    "TJK": null,
+    "TZA": null,
+    "THA": 0.7,
+    "TLS": null,
+    "TGO": null,
+    "TON": null,
+    "TTO": null,
+    "TUN": null,
+    "TUR": 0.9,
+    "TKM": null,
+    "TUV": null,
+    "UGA": null,
+    "UKR": 0.4,
+    "ARE": 0.8,
+    "GBR": 0.2,
+    "USA": null,
+    "URY": null,
+    "UZB": null,
+    "VUT": null,
+    "VEN": null,
+    "VNM": 0.7,
+    "YEM": null,
+    "ZMB": null,
+    "ZWE": null
+  };
+      // Generate color scale (light yellow to dark blue)
+      const colorScale = d3.scale.linear()
+        .domain([0, 1])
+        .range(["#effbfc", "#0288d1"]); 
+  
+        const processedData = {};
+        Object.entries(countryRatings).forEach(([iso, info]) => {
+          if (iso === "KAZ") {
+            processedData[iso] = { fillKey: 'kazakhstan' };
+          } else if (info === null) {
+            processedData[iso] = { fillKey: 'nodata' };
+          } else {
+            processedData[iso] = {
+              fillKey: 'gradient',
+              value: info,
+              fillColor: colorScale(info)
+        };
+      }
+});
+  
+      const map = new Datamap({
+        element: document.getElementById('map'),
+        projection: 'mercator',
+        fills: {
+          defaultFill: '#e0e0e0', // fallback
+          kazakhstan: '#1CA9C9',
+          nodata: '#e0e0e0',
+          gradient: '#ffffff' // dummy, we override per-country
+        },
+        data: processedData,
+        geographyConfig: {
+          highlightOnHover: true,
+          popupTemplate: function (geo, data) {
+            if (!data) return `<div class="hoverinfo">${geo.properties.name}: No data</div>`;
+            if (data.fillKey === 'kazakhstan') return `<div class="hoverinfo">${geo.properties.name}: Kazakhstan</div>`;
+            if (data.fillKey === 'nodata') return `<div class="hoverinfo">${geo.properties.name}: No data</div>`;
+            return `<div class="hoverinfo">${geo.properties.name}: ${data.value}</div>`;
+          }
+        },
+        done: function (datamap) {
+          datamap.svg.selectAll('.datamaps-subunit')
+            .style('fill', function (d) {
+              const iso = d.id;
+              const datum = processedData[iso];
+              return datum && datum.fillColor ? datum.fillColor :
+                     datum && datum.fillKey === 'kazakhstan' ? '#1CA9C9' :
+                     '#e0e0e0';
+            });
+        }
+      });
+  
+      // Optional Kazakhstan pattern fill (replacing solid color)
+      const svg = d3.select('#map svg');
+      // Define pattern for Kazakhstan flag
+      svg.append("defs")
+        .append("pattern")
+        .attr("id", "kazakhstan-flag")
+        .attr("patternUnits", "userSpaceOnUse")
+        .attr("x", 580)  // adjust X to center over Kazakhstan
+        .attr("y", 187)  // adjust Y to center vertically
+        .attr("width", 200)
+        .attr("height", 120)
+        .append("image")
+        .attr("href", "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", 200)
+        .attr("height", 120)
+        .attr("preserveAspectRatio", "xMidYMid slice");
+
+      const defs = svg.append("defs");
+      defs.append("pattern")
+        .attr("id", "kazPattern")
+        .attr("patternUnits", "userSpaceOnUse")
+        .attr("width", 50)
+        .attr("height", 30)
+        .append("rect")
+        .attr("width", 50)
+        .attr("height", 30)
+        .attr("fill", "#1CA9C9");
+  
+      svg.selectAll(".datamaps-subunit.KAZ")
+      .style("fill", d => d.id === "KAZ" ? "url(#kazakhstan-flag)" : colorScale(scoreData[d.id] ?? 0));
+    };
+  </script>
+</body>
+</html>
