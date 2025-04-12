@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    .toc {
+      display: none;
+    }
+  }
+
+  .toc {
+    max-height: 80vh;         /* use 80% of viewport height */
+    overflow-y: auto;         /* enable vertical scroll */
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+/* Carousel container size */
+.swiper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Make dots iOS-style */
+.swiper-pagination {
+  bottom: 10px !important;
+}
+
+.custom-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(180, 180, 180, 0.5);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: background 0.3s ease;
+}
+
+.custom-bullet-active {
+  background: #333;
+  transform: scale(1.2);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #333 !important; /* or whatever your bullet color is */
+  opacity: 0.6;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #333 !important; /* This is where Swiper sets the icon color */
+  font-size: 20px; /* optional: reduce icon size */
+  opacity: 0.6;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  opacity: 1;
+}
