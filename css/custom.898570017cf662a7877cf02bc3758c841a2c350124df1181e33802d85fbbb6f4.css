@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+    .toc {
+      display: none;
+    }
+  }
+
+  .toc {
+    max-height: 80vh;         /* use 80% of viewport height */
+    overflow-y: auto;         /* enable vertical scroll */
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: static;
+  }
+
+  .toc ul {
+    padding-left: 1em;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .toc li {
+    margin: 0.3em 0;
+  }
+
+/* Carousel container size */
+.swiper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Make dots iOS-style */
+.swiper-pagination {
+  bottom: 10px !important;
+}
+
+.custom-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(180, 180, 180, 0.5);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: background 0.3s ease;
+}
+
+.custom-bullet-active {
+  background: #333;
+  transform: scale(1.2);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #333 !important; /* or whatever your bullet color is */
+  opacity: 0.6;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #333 !important; /* This is where Swiper sets the icon color */
+  font-size: 20px; /* optional: reduce icon size */
+  opacity: 0.6;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  opacity: 1;
+}
+
+
+.pagination {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 0.9em;
+}
+
+.pagination ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 5px;
+}
+
+.pagination li::after {
+  content: none !important;
+}
+
+.pagination a,
+.pagination span {
+  margin: 0 4px;
+  text-decoration: none;
+  color: inherit;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.pagination a:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .current {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-tags {
+  margin: 1em 0;
+  padding: 0.8em;
+  background-color: #f1f1f1;
+  border-left: 4px solid #ccc;
+  font-size: 0.95em;
+}
+
+.top-tags ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5em;
+}
+
+.top-tags li {
+  display: inline;
+  margin-right: 1em;
+}
+
+.top-tags a {
+  color: #007acc;
+  text-decoration: none;
+}

@@ -47,15 +47,14 @@
     </item>
     
     <item>
-      <title>Coffee</title>
-      <link>https://grebenyyk.github.io/posts/coffee/</link>
+      <title>Coffee Tasting</title>
+      <link>https://grebenyyk.github.io/posts/coffee-tasting/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://grebenyyk.github.io/posts/coffee/</guid>
-      <description>Here are some particular coffees that I tasted and what I think about them
-好运到咖啡士多 广东省深圳市福田区八卦一路619栋一层
+      <guid>https://grebenyyk.github.io/posts/coffee-tasting/</guid>
+      <description>好运到咖啡士多 广东省深圳市福田区八卦一路619栋一层
 哥伦比亚•希爪 【双重发酵日晒】Double fermentation, solar exposure. Columbia Sidra 风味：红色浆果、红樱桃、红布林、巧克力 豆种：希爪 烘焙：浅烘 light roast Drip bag The most unexpected and amazing coffee that i tried. I taste dry plum and cherry liquor, some nice fruit acidity, chocolate candies. Absolutely stunning.
-哥斯达黎加•蓝色火山庄园 【厌氧日晒】Anaerobic solarization. Costa Rica, Volcàn Azul 风味：白葡萄酒、柑橘、红茶、菠萝、黑醋栗 豆种：ET-47 烘焙：极浅烘 ultra light roast V60 pour over Citrus, black tea, just a hint of pineapple.</description>
+哥斯达黎加•蓝色火山庄园 【厌氧日晒】Anaerobic solarization. Costa Rica, Volcàn Azul 风味：白葡萄酒、柑橘、红茶、菠萝、黑醋栗 豆种：ET-47 烘焙：极浅烘 ultra light roast V60 pour over Citrus, black tea, just a hint of pineapple. Felt a bit plain compared to the 双重发酵日晒 哥伦比亚•希爪.</description>
     </item>
     
     <item>
@@ -64,7 +63,25 @@
       <pubDate>Fri, 06 Oct 2023 11:27:42 +0800</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/scuba-on-boracay/</guid>
-      <description>I spent a week on Boracay island in the Philippines to certify for an Open Water Diver and enjoy some fun dives, too. Here are some of the highlights from that trip.</description>
+      <description>&lt;p&gt;I spent a week on Boracay Island in the Philippines getting my Open Water Diver certification and doing some fun dives. Here are a few photo highlights:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sometimes</title>
+      <link>https://grebenyyk.github.io/posts/sometimes/sometimes/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grebenyyk.github.io/posts/sometimes/sometimes/</guid>
+      <description>&lt;p&gt;Sometimes I am struck by a revelation that I now live on the shores of the Pacific.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Order Food in China Properly</title>
+      <link>https://grebenyyk.github.io/posts/order-in-china/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grebenyyk.github.io/posts/order-in-china/</guid>
+      <description>那你，那你，给我来一个那个什么吧</description>
     </item>
     
     <item>
@@ -83,7 +100,7 @@
       <pubDate>Tue, 07 Feb 2023 21:34:41 +0300</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/caolaling/</guid>
-      <description>ЦАО, Лялин переулок</description>
+      <description>ЦАО, Лялин переулок. That&amp;rsquo;s it. That&amp;rsquo;s the post.</description>
     </item>
     
     <item>
@@ -92,7 +109,7 @@
       <pubDate>Tue, 03 Jan 2023 21:41:53 +0300</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/photoshop/</guid>
-      <description>Some random Photoshop fun </description>
+      <description> </description>
     </item>
     
     <item>
@@ -101,8 +118,7 @@
       <pubDate>Tue, 03 Jan 2023 20:59:31 +0300</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/manila-music/</guid>
-      <description>One of the few places on Earth where I felt a strong connection between the city and the music.
-La Muralla Inti Illimani Bob Dylan</description>
+      <description>&lt;p&gt;One of the few places on Earth where I truly felt a deep connection between the city and the music.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -111,8 +127,7 @@ La Muralla Inti Illimani Bob Dylan</description>
       <pubDate>Mon, 07 Nov 2022 09:09:49 +0300</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/san-juan/</guid>
-      <description>This is a poem which I found written on a lamp post in the town of Ushuaia, Argentina.
-Faro ojo avizor faro leyenda faro, luz nuevos tiempos dejan en tu orilla la tormenta tormento</description>
+      <description>&lt;p&gt;This is a poem I found on a lamp post in the town of Ushuaia, Argentina.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,16 +136,34 @@ Faro ojo avizor faro leyenda faro, luz nuevos tiempos dejan en tu orilla la torm
       <pubDate>Sun, 06 Nov 2022 22:13:16 +0300</pubDate>
       
       <guid>https://grebenyyk.github.io/posts/albums/</guid>
-      <description>Skies of Reykjavík
-Tram to Scheveningen
-Manila Hotel
-Kanal İstanbul
-Tropical Depression
-Atossa&amp;rsquo;s Dream
-Why is the Ice Blue in Calafate
-Zabaykalsk
-Kowloon Qingdao
-Phnom Penh Pancake</description>
+      <description>&lt;p&gt;&lt;em&gt;I think those would make great album names, but unfortunately I don&amp;rsquo;t make music, so these are the names of the albums that I&amp;rsquo;ll never write:&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trains</title>
+      <link>https://grebenyyk.github.io/posts/trains/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://grebenyyk.github.io/posts/trains/</guid>
+      <description>Ну что написать, поезда разные бывают. На магнитной подушке, раздолбанные электрички в области, TGV Авиньон- Париж, фирменный поезд «Дружба» Омск-Караганда. Бывают еще поезда в Индии. Чтобы на них попасть, надо не поддаваться на провокации местных. Бывают поезда в Южной Африке, которые идут вдоль океана на самый юг, почти до мыса Доброй Надежды. В бесконечно рыжей пустыне Калахари бывает черная железная дорога, уходящая за выжженный горизонт, а бывают ли поезда я не знаю.</description>
+    </item>
+    
+    <item>
+      <title>Russian Ark</title>
+      <link>https://grebenyyk.github.io/posts/russian-ark/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://grebenyyk.github.io/posts/russian-ark/</guid>
+      <description>В начале 2019 я был в месячной командировке в университете Байройта в Германии. Так получилось, что место где я жил было далеко от университета и я каждое утро и каждый вечер шел пешком примерно минут 45-50 в одну сторону. При этом слушал постоянно подкасты, изредка аудиокниги. Есть такой подкаст, называется Heavyweight. Очень хороший, там в каждом выпуске свой герой, а сам подкаст про какие-то истории прошлого, и веселые и грустные, как получится.</description>
+    </item>
+    
+    <item>
+      <title>Istanbul Pages</title>
+      <link>https://grebenyyk.github.io/posts/istanbul-pages/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://grebenyyk.github.io/posts/istanbul-pages/</guid>
+      <description>24 сентября 2020 Прилетел в Сабиху и за два часа добрался до центра. Обедал в сомнительной кальянной на террасе рядом с Сулеймание. Еда — ничто, вид — все, хотя мясо оказалось неплохим. Сегодня же решил дойти до Софии, пошел через Эминёню. Остановился на камнях посмотреть на Босфор под задумчивое низкое пение женщины с микрофоном. Сначала было просто хорошо, а потом она запела Sarı Gelin — считаю поездку удавшейся уже сегодня, о таком не мог даже мечтать.</description>
     </item>
     
   </channel>
