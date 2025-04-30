@@ -9,6 +9,34 @@
     <copyright>© Dimitry Grebenyuk</copyright>
     <lastBuildDate>Mon, 14 Apr 2025 13:00:56 +0800</lastBuildDate><atom:link href="https://grebenyyk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://grebenyyk.github.io/about/</link>
+      <pubDate>Wed, 30 Apr 2025 13:33:12 +0800</pubDate>
+      
+      <guid>https://grebenyyk.github.io/about/</guid>
+      <description>Hi, I&amp;rsquo;m Dimitry.
+I work in inorganic chemistry and crystallography, and I teach at MSU-BIT University in Shenzhen, China.
+I used to build my identity around photos of food and random travels to remote places. These days, I&amp;rsquo;m more of a running and fitness oriented type of guy.
+My dear wife Nadia is incredibly talented and cool, though she&amp;rsquo;s not very active on socials these days.
+Feel free to drop me a line or follow me elsewhere.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://grebenyyk.github.io/links/</link>
+      <pubDate>Wed, 30 Apr 2025 13:20:11 +0800</pubDate>
+      
+      <guid>https://grebenyyk.github.io/links/</guid>
+      <description>This is a collection of things I bookmark online — sometimes for work, sometimes just for fun.
+Data and color A Beginner&amp;rsquo;s Guide to Colorimetry
+Poline ∙ Color palette generator from some polar coordinate witchcraft
+Colorbrewer ∙ Color palette generator for geo data
+Bokeh ∙ A Python library for creating interactive visualizations
+Books Конструкции. Почему они стоят и почему разваливаются
+Everything else Monkeytype ∙ A minimalistic typing test, can be addictive sometimes</description>
+    </item>
+    
+    <item>
       <title>Running with Apple Watch</title>
       <link>https://grebenyyk.github.io/posts/running-with-apple-watch/</link>
       <pubDate>Mon, 14 Apr 2025 13:00:56 +0800</pubDate>
